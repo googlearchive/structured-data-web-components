@@ -1,0 +1,26 @@
+{
+  "name": "google-map-jsonld",
+  "version": "0.0.1",
+  "authors": [
+    "Ewa Gasperowicz <devnook@gmail.com>"
+  ],
+  "description": "Element displaying a google map from an address encoded in jsonld.",
+  "keywords": "schema.org, polymer, web-components",
+  "main": "google-map-jsonld.html",
+  "license": "Apache 2.0",
+  "homepage": "https://github.com/polymerlabs/semantic-inception",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests",
+    ".bowerrc"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.5",
+    "core-ajax": "Polymer/core-ajax#~0.5.5",
+    "google-map": "~0.4.1"
+  },
+  "_source": "/Users/ewag/projects/semantic/structured-data-web-components/google-map-jsonld",
+  "_target": "*",
+  "_originalSource": "../google-map-jsonld/"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "address-dropdown-jsonld",
+  "version": "0.0.1",
+  "authors": [
+    "Ewa Gasperowicz <devnook@gmail.com>"
+  ],
+  "description": "Element displaying a dropdown with addresses encoded in jsonld.",
+  "keywords": "schema.org, polymer, web-components",
+  "main": "address-dropdown-jsonld.html",
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "test",
+    "tests",
+    ".bowerrc"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.5",
+    "core-ajax": "Polymer/core-ajax#~0.5.5"
+  }
+}

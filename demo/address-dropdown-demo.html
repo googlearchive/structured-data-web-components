@@ -1,0 +1,58 @@
+<!doctype html>
+<!--
+    Copyright 2014 Google Inc. All Rights Reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<!doctype html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>address-dropdown-jsonld Demo</title>
+
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <link rel="import" href="bower_components/address-dropdown-jsonld/address-dropdown-jsonld.html">
+
+</head>
+<body unresolved>
+
+<style>
+  address-dropdown-jsonld {
+    display: block;
+  }
+</style>
+
+<template id="auto-bind-demo" is="auto-binding">
+
+  <div>
+    <label>Paste url with jsonld data:</label>
+    <input type="text" value="{{url}}" placeholder="stores-example-1.json">
+    or select an example url:
+    <select value="{{url}}">
+      <option selected>stores-example-1.json</option>
+      <option>stores-example-2.json</option>
+    </select>
+  </div>
+  <core-ajax id="geocode"
+        url="{{url}}"
+        auto
+        response="{{data}}"
+        handleAs="json"></core-ajax>
+
+  <address-dropdown-jsonld jsonld="{{data['@graph']}}">
+  </address-dropdown-jsonld>
+
+</template>
+
+</body>
+</html>

@@ -1,0 +1,440 @@
+
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "name": "Google Inc.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "streetAddress": "1600 Amphitheatre Parkway",
+        "addressLocality": "Mountain View",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "94043",
+        "telephone": "+1 650-253-0000",
+        "faxNumber": "+1 650-253-0001"
+      }
+    },
+    {
+      "name": "Google Ann Arbor",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "streetAddress": "201 S. Division St. Suite 500",
+        "addressLocality": "Ann Arbor",
+        "addressRegion": "MI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "48104",
+        "telephone": "+1 734-332-6500",
+        "faxNumber": "+1 734-332-6501"
+      }
+    },
+    {
+      "name": "Google Atlanta",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "Millennium at Midtown, 10 10th Street NE, Suite 600",
+        "addressLocality": "Atlanta",
+        "addressRegion": "GA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "30309",
+        "telephone": "+1 404-487-9000",
+        "faxNumber": "+1 404-487-9001"
+      }
+    },
+    {
+      "name": "Google Austin",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "9606 North MoPac Expressway Suite 700",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postOfficeBoxNumber": null,
+        "postalCode": "78759",
+        "telephone": "+1 512-343-5283",
+        "faxNumber": "+1 512-343-5285"
+      }
+    },
+    {
+      "name": "Google Boulder",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "2590 Pearl Street\nSuite 110",
+        "addressLocality": "Boulder",
+        "addressRegion": "CO",
+        "postOfficeBoxNumber": null,
+        "postalCode": "80302",
+        "telephone": "+1 303-245-0086",
+        "faxNumber": "+1 303-535-5592"
+      }
+    },
+    {
+      "name": "Google Boston",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "5 Cambridge Center, Floors 3-6",
+        "addressLocality": "Cambridge",
+        "addressRegion": "MA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "02142",
+        "telephone": "+1 617-575-1300",
+        "faxNumber": "+1 617-575-1301"
+      }
+    },
+    {
+      "name": "Google Chicago",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "20 West Kinzie St.",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postOfficeBoxNumber": null,
+        "postalCode": "60654",
+        "telephone": "+1 312-840-4100",
+        "faxNumber": "+1 312-840-4101"
+      }
+    },
+    {
+      "name": "Google Detroit",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "114 Willits Street",
+        "addressLocality": "Birmingham",
+        "addressRegion": "MI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "48009",
+        "telephone": "+1 248-593-4000",
+        "faxNumber": "+1 248-593-400"
+      }
+    },
+    {
+      "name": "Google Orange County",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "19510 Jamboree Road Suite 300",
+        "addressLocality": "Irvine",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "92612",
+        "telephone": "+1 949-794-1600",
+        "faxNumber": "+1 949-794-1601"
+      }
+    },
+    {
+      "name": "Google Kirkland",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "747 6th Street South",
+        "addressLocality": "Kirkland",
+        "addressRegion": "WA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "98033",
+        "telephone": "+1 425-739-5600",
+        "faxNumber": "+1 425-968-9399"
+      }
+    },
+    {
+      "name": "Google Los Angeles",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "340 Main Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "90291",
+        "telephone": "+1 310-310-6000",
+        "faxNumber": "+1 310-310-6001"
+      }
+    },
+    {
+      "name": "Google Madison",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "The Constellation, 10 North Livingston St., 2nd Floor",
+        "addressLocality": "Madison",
+        "addressRegion": "WI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "53703",
+        "telephone": "+1 608-669-9600",
+        "faxNumber": "+1 608-669-9601"
+      }
+    },
+    {
+      "name": "Google New York",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "76 Ninth Avenue\n4th Floor",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postOfficeBoxNumber": null,
+        "postalCode": "10011",
+        "telephone": "+1 212-565-0000",
+        "faxNumber": "+1 212-565-0001"
+      }
+    },
+    {
+      "name": "Google New York",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "Chelsea Market Space, 75 Ninth Avenue 2nd and 4th Floors",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postOfficeBoxNumber": null,
+        "postalCode": "10011",
+        "telephone": "+1 212-565-0000",
+        "faxNumber": "+1 212-565-0001"
+      }
+    },
+    {
+      "name": "Google Pittsburgh",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "6425 Penn Ave. Suite 700",
+        "addressLocality": "Pittsburgh",
+        "addressRegion": "PA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "15206",
+        "telephone": "+1 412-345-6700",
+        "faxNumber": "1 412-345-6699"
+      }
+    },
+    {
+      "name": "Google Reston",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "1818 Library Street Suite 400",
+        "addressLocality": "Reston",
+        "addressRegion": "VA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "20190",
+        "telephone": "+1 202-370-5600",
+        "faxNumber": "+1 202-370-5601"
+      }
+    },
+    {
+      "name": "Google San Francisco",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "345 Spear Street Floors 2-4",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "94105",
+        "telephone": "+1 415-736-0000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Seattle",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "651 N. 34th St.",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "98103",
+        "telephone": "+1 206-876-1800",
+        "faxNumber": "+1 206-876-1701"
+      }
+    },
+    {
+      "name": "Google Washington, D.C.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "25 Massachusetts Avenue NW.\nSuite 900",
+        "addressLocality": "Washington",
+        "addressRegion": "DC",
+        "postOfficeBoxNumber": null,
+        "postalCode": "20001",
+        "telephone": "+1 (202) 346-1100",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Australia Pty Ltd.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Australia",
+        "streetAddress": "Level 5, 48 Pirrama Road,",
+        "addressLocality": "Pyrmont",
+        "addressRegion": "NSW",
+        "postOfficeBoxNumber": null,
+        "postalCode": "2009",
+        "telephone": "+61 2 9374 4000",
+        "faxNumber": "+61 2 9374 4001"
+      }
+    },
+    {
+      "name": "Google Bangalore Pvt. Ltd",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "No. 3, RMZ Infinity - Tower E, Old Madras Road, 3rd, 4th, and 5th Floors",
+        "addressLocality": "Bangalore",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "560 016",
+        "telephone": "+91-80-67218000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Gurgaon",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "Unitech Signature Tower-II\nTower-B, Sector-15\nPart-II Village Silokhera",
+        "addressLocality": "Guragon",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "122001",
+        "telephone": "+91-12-44512900",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Hyderabad",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "Block 1,DivyaSree Omega,Survey No. 13,Kondapur Village",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Andhra Pradesh",
+        "postOfficeBoxNumber": null,
+        "postalCode": null,
+        "telephone": "+91-40-6619-3000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Mumbai",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "1st Floor, 3 North Avenue, Maker Maxity, Bandra Kurla Complex, Bandra East",
+        "addressLocality": "Mumbai",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "400 05",
+        "telephone": "+91-22-6611-7150",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Japan",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Japan",
+        "streetAddress": "Roppongi Hills Mori Tower, 6-10-1 Roppongi",
+        "addressLocality": "Minato-ku",
+        "addressRegion": "Tokyo",
+        "postOfficeBoxNumber": "PO Box 22",
+        "postalCode": "106-6126",
+        "telephone": "+81-3-6384-9000",
+        "faxNumber": "+81-3-6384-9001"
+      }
+    },
+    {
+      "name": "Google Seoul",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "South Korea",
+        "streetAddress": "Google Korea LLC., 22nd Floor, Gangnam Finance Center, 152 Teheran-ro, Gangnam-g",
+        "addressLocality": "Seoul",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "135-984",
+        "telephone": "+82-2-531-9000",
+        "faxNumber": "+82-2-531-9001"
+      }
+    },
+    {
+      "name": "Google Malaysia Sdn Bhd",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Malaysia",
+        "streetAddress": "Quill 7, No. 9, Jalan Stesen Sentral 5",
+        "addressLocality": "Kuala Lumpur",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "50470",
+        "telephone": null,
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Auckland",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "New Zealand",
+        "streetAddress": "Level 27, PWC Tower, 188 Quay Street",
+        "addressLocality": "Auckland",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "1010",
+        "telephone": null,
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Singapore",
+        "streetAddress": "Google Asia Pacific Pte. Ltd.,8 Marina View,Asia Square 1 #30-01",
+        "addressLocality": "Singapore",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "018960",
+        "telephone": "+65 6521-8000",
+        "faxNumber": "+65 6521-8001"
+      }
+    },
+    {
+      "name": "Google Taipei",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Taiwan",
+        "streetAddress": "Level 73, Taipei 101 Tower\n7 Xinyi Road, Sec. 5",
+        "addressLocality": "Taipei",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "110",
+        "telephone": "886 2 8729 6000",
+        "faxNumber": "886 2 8729 6001"
+      }
+    },
+    {
+      "name": "Google (Thailand) Company Limited",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Thailand",
+        "streetAddress": "14th Floor, Park Ventures Ecoplex, 57 Wireless Road",
+        "addressLocality": "Bangkok",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "10330",
+        "telephone": null,
+        "faxNumber": null
+      }
+    }
+  ]
+}

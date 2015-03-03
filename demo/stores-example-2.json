@@ -1,0 +1,174 @@
+
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "name": "Google Australia Pty Ltd.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Australia",
+        "streetAddress": "Level 5, 48 Pirrama Road,",
+        "addressLocality": "Pyrmont",
+        "addressRegion": "NSW",
+        "postOfficeBoxNumber": null,
+        "postalCode": "2009",
+        "telephone": "+61 2 9374 4000",
+        "faxNumber": "+61 2 9374 4001"
+      }
+    },
+    {
+      "name": "Google Bangalore Pvt. Ltd",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "No. 3, RMZ Infinity - Tower E, Old Madras Road, 3rd, 4th, and 5th Floors",
+        "addressLocality": "Bangalore",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "560 016",
+        "telephone": "+91-80-67218000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Gurgaon",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "Unitech Signature Tower-II\nTower-B, Sector-15\nPart-II Village Silokhera",
+        "addressLocality": "Guragon",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "122001",
+        "telephone": "+91-12-44512900",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Hyderabad",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "Block 1,DivyaSree Omega,Survey No. 13,Kondapur Village",
+        "addressLocality": "Hyderabad",
+        "addressRegion": "Andhra Pradesh",
+        "postOfficeBoxNumber": null,
+        "postalCode": null,
+        "telephone": "+91-40-6619-3000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Mumbai",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "India",
+        "streetAddress": "1st Floor, 3 North Avenue, Maker Maxity, Bandra Kurla Complex, Bandra East",
+        "addressLocality": "Mumbai",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "400 05",
+        "telephone": "+91-22-6611-7150",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Japan",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Japan",
+        "streetAddress": "Roppongi Hills Mori Tower, 6-10-1 Roppongi",
+        "addressLocality": "Minato-ku",
+        "addressRegion": "Tokyo",
+        "postOfficeBoxNumber": "PO Box 22",
+        "postalCode": "106-6126",
+        "telephone": "+81-3-6384-9000",
+        "faxNumber": "+81-3-6384-9001"
+      }
+    },
+    {
+      "name": "Google Seoul",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "South Korea",
+        "streetAddress": "Google Korea LLC., 22nd Floor, Gangnam Finance Center, 152 Teheran-ro, Gangnam-g",
+        "addressLocality": "Seoul",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "135-984",
+        "telephone": "+82-2-531-9000",
+        "faxNumber": "+82-2-531-9001"
+      }
+    },
+    {
+      "name": "Google Malaysia Sdn Bhd",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Malaysia",
+        "streetAddress": "Quill 7, No. 9, Jalan Stesen Sentral 5",
+        "addressLocality": "Kuala Lumpur",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "50470",
+        "telephone": null,
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Auckland",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "New Zealand",
+        "streetAddress": "Level 27, PWC Tower, 188 Quay Street",
+        "addressLocality": "Auckland",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "1010",
+        "telephone": null,
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Singapore",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Singapore",
+        "streetAddress": "Google Asia Pacific Pte. Ltd.,8 Marina View,Asia Square 1 #30-01",
+        "addressLocality": "Singapore",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "018960",
+        "telephone": "+65 6521-8000",
+        "faxNumber": "+65 6521-8001"
+      }
+    },
+    {
+      "name": "Google Taipei",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Taiwan",
+        "streetAddress": "Level 73, Taipei 101 Tower\n7 Xinyi Road, Sec. 5",
+        "addressLocality": "Taipei",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "110",
+        "telephone": "886 2 8729 6000",
+        "faxNumber": "886 2 8729 6001"
+      }
+    },
+    {
+      "name": "Google (Thailand) Company Limited",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Thailand",
+        "streetAddress": "14th Floor, Park Ventures Ecoplex, 57 Wireless Road",
+        "addressLocality": "Bangkok",
+        "addressRegion": null,
+        "postOfficeBoxNumber": null,
+        "postalCode": "10330",
+        "telephone": null,
+        "faxNumber": null
+      }
+    }
+  ]
+}

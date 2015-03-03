@@ -1,0 +1,350 @@
+<!doctype html>
+<!--
+    Copyright 2014 Google Inc. All Rights Reserved.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>Combined Demo</title>
+
+  <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+  <link rel="import" href="bower_components/google-map-jsonld/google-map-jsonld.html">
+  <link rel="import" href="bower_components/address-dropdown-jsonld/address-dropdown-jsonld.html">
+
+</head>
+<body unresolved>
+
+  <style>
+    google-map-jsonld {
+      display: block;
+    }
+    address-dropdown-jsonld {
+      display: block;
+    }
+  </style>
+
+  <h2>Widget 1</h2>
+
+  <address-dropdown-jsonld jsonld="">
+  </address-dropdown-jsonld>
+
+  <h2>Widget 2</h2>
+
+  <google-map-jsonld jsonld="">
+  </google-map-jsonld>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "name": "Google Inc.",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "streetAddress": "1600 Amphitheatre Parkway",
+        "addressLocality": "Mountain View",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "94043",
+        "telephone": "+1 650-253-0000",
+        "faxNumber": "+1 650-253-0001"
+      }
+    },
+    {
+      "name": "Google Ann Arbor",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "United States",
+        "streetAddress": "201 S. Division St. Suite 500",
+        "addressLocality": "Ann Arbor",
+        "addressRegion": "MI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "48104",
+        "telephone": "+1 734-332-6500",
+        "faxNumber": "+1 734-332-6501"
+      }
+    },
+    {
+      "name": "Google Atlanta",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "Millennium at Midtown, 10 10th Street NE, Suite 600",
+        "addressLocality": "Atlanta",
+        "addressRegion": "GA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "30309",
+        "telephone": "+1 404-487-9000",
+        "faxNumber": "+1 404-487-9001"
+      }
+    },
+    {
+      "name": "Google Austin",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "9606 North MoPac Expressway Suite 700",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postOfficeBoxNumber": null,
+        "postalCode": "78759",
+        "telephone": "+1 512-343-5283",
+        "faxNumber": "+1 512-343-5285"
+      }
+    },
+    {
+      "name": "Google Boulder",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "2590 Pearl Street\nSuite 110",
+        "addressLocality": "Boulder",
+        "addressRegion": "CO",
+        "postOfficeBoxNumber": null,
+        "postalCode": "80302",
+        "telephone": "+1 303-245-0086",
+        "faxNumber": "+1 303-535-5592"
+      }
+    },
+    {
+      "name": "Google Boston",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "5 Cambridge Center, Floors 3-6",
+        "addressLocality": "Cambridge",
+        "addressRegion": "MA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "02142",
+        "telephone": "+1 617-575-1300",
+        "faxNumber": "+1 617-575-1301"
+      }
+    },
+    {
+      "name": "Google Chicago",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "20 West Kinzie St.",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postOfficeBoxNumber": null,
+        "postalCode": "60654",
+        "telephone": "+1 312-840-4100",
+        "faxNumber": "+1 312-840-4101"
+      }
+    },
+    {
+      "name": "Google Detroit",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "114 Willits Street",
+        "addressLocality": "Birmingham",
+        "addressRegion": "MI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "48009",
+        "telephone": "+1 248-593-4000",
+        "faxNumber": "+1 248-593-400"
+      }
+    },
+    {
+      "name": "Google Orange County",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "19510 Jamboree Road Suite 300",
+        "addressLocality": "Irvine",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "92612",
+        "telephone": "+1 949-794-1600",
+        "faxNumber": "+1 949-794-1601"
+      }
+    },
+    {
+      "name": "Google Kirkland",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "747 6th Street South",
+        "addressLocality": "Kirkland",
+        "addressRegion": "WA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "98033",
+        "telephone": "+1 425-739-5600",
+        "faxNumber": "+1 425-968-9399"
+      }
+    },
+    {
+      "name": "Google Los Angeles",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "340 Main Street",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "90291",
+        "telephone": "+1 310-310-6000",
+        "faxNumber": "+1 310-310-6001"
+      }
+    },
+    {
+      "name": "Google Madison",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "The Constellation, 10 North Livingston St., 2nd Floor",
+        "addressLocality": "Madison",
+        "addressRegion": "WI",
+        "postOfficeBoxNumber": null,
+        "postalCode": "53703",
+        "telephone": "+1 608-669-9600",
+        "faxNumber": "+1 608-669-9601"
+      }
+    },
+    {
+      "name": "Google New York",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "76 Ninth Avenue\n4th Floor",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postOfficeBoxNumber": null,
+        "postalCode": "10011",
+        "telephone": "+1 212-565-0000",
+        "faxNumber": "+1 212-565-0001"
+      }
+    },
+    {
+      "name": "Google New York",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "Chelsea Market Space, 75 Ninth Avenue 2nd and 4th Floors",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postOfficeBoxNumber": null,
+        "postalCode": "10011",
+        "telephone": "+1 212-565-0000",
+        "faxNumber": "+1 212-565-0001"
+      }
+    },
+    {
+      "name": "Google Pittsburgh",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "6425 Penn Ave. Suite 700",
+        "addressLocality": "Pittsburgh",
+        "addressRegion": "PA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "15206",
+        "telephone": "+1 412-345-6700",
+        "faxNumber": "1 412-345-6699"
+      }
+    },
+    {
+      "name": "Google Reston",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "1818 Library Street Suite 400",
+        "addressLocality": "Reston",
+        "addressRegion": "VA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "20190",
+        "telephone": "+1 202-370-5600",
+        "faxNumber": "+1 202-370-5601"
+      }
+    },
+    {
+      "name": "Google San Francisco",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "345 Spear Street Floors 2-4",
+        "addressLocality": "San Francisco",
+        "addressRegion": "CA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "94105",
+        "telephone": "+1 415-736-0000",
+        "faxNumber": null
+      }
+    },
+    {
+      "name": "Google Seattle",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "651 N. 34th St.",
+        "addressLocality": "Seattle",
+        "addressRegion": "WA",
+        "postOfficeBoxNumber": null,
+        "postalCode": "98103",
+        "telephone": "+1 206-876-1800",
+        "faxNumber": "+1 206-876-1701"
+      }
+    },
+    {
+      "name": "Google Washington, D.C.",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "USA",
+        "streetAddress": "25 Massachusetts Avenue NW.\nSuite 900",
+        "addressLocality": "Washington",
+        "addressRegion": "DC",
+        "postOfficeBoxNumber": null,
+        "postalCode": "20001",
+        "telephone": "+1 (202) 346-1100",
+        "faxNumber": null
+      }
+    }
+  ]
+}
+</script>
+<script type="text/javascript">
+  document.addEventListener('polymer-ready', function() {
+    var jsonld = JSON.parse(
+        document.querySelector(
+            'script[type="application/ld+json"]').innerText);
+    document.querySelector('google-map-jsonld').jsonld = jsonld['@graph'];
+    document.querySelector('address-dropdown-jsonld').jsonld = jsonld['@graph'];
+  });
+</script>
+</body>
+</html>

@@ -20,13 +20,14 @@
 -->
 
 <!--
-Element binging google-map markers to json-ld input. It takes a jsonld with a list of addresses as an input
-and displays relevant markers on a map.
+Element binding a dropdown to json-ld input. It takes a jsonld with a list of
+addresses as an input and displays them as options in a dropdown.
 
 ##### Example
 
 <address-dropdown-jsonld jsonld='[
   {
+    "@context": "http://schema.org",
     "name": "Google Inc.",
     "address": {
       "@type": "PostalAddress",
@@ -41,6 +42,7 @@ and displays relevant markers on a map.
     }
   },
   {
+    "@context": "http://schema.org",
     "name": "Google Ann Arbor",
     "address": {
       "@type": "PostalAddress",
@@ -57,7 +59,7 @@ and displays relevant markers on a map.
 </address-dropdown-jsonld>
 
 @element address-dropdown-jsonld
-@blurb Element displaying a google map from an address encoded in jsonld.
+@blurb Element displaying a dropdown from the addresses encoded in jsonld.
 @status alpha
 -->
 <polymer-element name="address-dropdown-jsonld" attributes="jsonld">

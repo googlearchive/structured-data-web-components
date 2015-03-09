@@ -20,13 +20,14 @@
 -->
 
 <!--
-Element binging google-map markers to json-ld input. It takes a jsonld with a list of addresses as an input
-and displays relevant markers on a map.
+Element binding google-map markers to json-ld input. It takes a json-ld with
+a list of addresses as an input and displays relevant markers on a map.
 
 ##### Example
 
 <google-map-jsonld jsonld='[
   {
+    "@context": "http://schema.org",
     "name": "Google Inc.",
     "address": {
       "@type": "PostalAddress",
@@ -41,6 +42,7 @@ and displays relevant markers on a map.
     }
   },
   {
+    "@context": "http://schema.org",
     "name": "Google Ann Arbor",
     "address": {
       "@type": "PostalAddress",
@@ -57,9 +59,10 @@ and displays relevant markers on a map.
 </google-map-jsonld>
 
 @element google-map-jsonld
-@blurb Element displaying a google map from an address encoded in jsonld.
+@blurb Element displaying a google map with markers for locations
+    encoded in jsonld.
 @status alpha
-@homepage http://polymerlabs.github.io/google-map-jsonld
+@homepage https://github.com/PolymerLabs/structured-data-web-components
 -->
 <polymer-element name="google-map-jsonld" attributes="jsonld">
 

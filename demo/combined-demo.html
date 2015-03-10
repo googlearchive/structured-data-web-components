@@ -341,7 +341,7 @@
   document.addEventListener('polymer-ready', function() {
     var jsonld = JSON.parse(
         document.querySelector(
-            'script[type="application/ld+json"]').innerText);
+            'script[type="application/ld+json"]').innerHTML);
     document.querySelector('google-map-jsonld').jsonld = jsonld['@graph'];
     document.querySelector('address-dropdown-jsonld').jsonld = jsonld['@graph'];
   });
